@@ -7,7 +7,7 @@ def bubble_sort(arr):
                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
     return print(arr)
 
-arr = [5, 2, 0, 1, 3, 1, 4]
+arr = [5,2,0,1,3,1,4]
 
 bubble_sort(arr)
 
